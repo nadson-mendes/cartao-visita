@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão de Visita</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .icons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+            gap: 10px;
+        }
+
+        .icon {
+            text-align: center;
+            padding: 10px;
+            flex: 1 1 100px;
+        }
+
+        .icon img {
+            width: 50px;
+            height: 50px;
+            transition: transform 0.3s;
+        }
+
+        .icon img:hover {
+            transform: scale(1.2);
+        }
+
+        .icon a {
+            text-decoration: none;
+            color: #555;
+            font-size: 14px;
+            display: block;
+            margin-top: 8px;
+        }
+
+        @media (max-width: 600px) {
+            .icons {
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bem-vindo ao Cartão de Visita de Suzane e Nadson</h1>
+        <p>Toque em um ícone para realizar uma ação.</p>
+        <div class="icons">
+            <!-- WhatsApp Nadson -->
+            <div class="icon">
+                <a href="https://wa.me/+5592994785180" target="_blank">
+                    <img src="https://img.icons8.com/color/96/whatsapp.png" alt="WhatsApp Nadson">
+                    WhatsApp Nadson
+                </a>
+            </div>
+            <!-- WhatsApp Suzane -->
+            <div class="icon">
+                <a href="https://wa.me/+5592992294847" target="_blank">
+                    <img src="https://img.icons8.com/color/96/whatsapp.png" alt="WhatsApp Suzane">
+                    WhatsApp Suzane
+                </a>
+            </div>
+            <!-- Email -->
+            <div class="icon">
+                <a href="mailto:nadson.suzane.ens@gmail.com">
+                    <img src="https://img.icons8.com/color/96/email.png" alt="Email">
+                    Email
+                </a>
+            </div>
+            <!-- Instagram -->
+            <div class="icon">
+                <a href="https://instagram.com/suzane_nbgoliver" target="_blank">
+                    <img src="https://img.icons8.com/color/96/instagram-new.png" alt="Instagram">
+                    Instagram
+                </a>
+            </div>
+            <!-- Pix -->
+            <div class="icon">
+                <a href="https://nubank.com.br/cobrar/r7ljw/67636c9f-3b11-42e2-95d5-e52227167c29" target="_blank">
+                    <img src="https://img.icons8.com/color/96/qr-code.png" alt="Pix">
+                    Pix
+                </a>
+            </div>
+            <!-- Localização -->
+            <div class="icon">
+                <a href="https://maps.app.goo.gl/9jV3N5bP9R7scYdL6" target="_blank">
+                    <img src="https://img.icons8.com/color/96/google-maps.png" alt="Localização">
+                    Localização
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
